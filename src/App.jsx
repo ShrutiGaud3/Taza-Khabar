@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 
-import WeatherCard from "./components/WeatherCard";
+// import WeatherCard from "./components/WeatherCard";
 
 import News from "./components/News";
 import Footer from "./components/Footer";
