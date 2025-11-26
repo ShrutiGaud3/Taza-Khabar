@@ -7,14 +7,4 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  server: {
-    proxy: {
-      '/gnews': {
-        target: 'https://gnews.io',
-        changeOrigin: true,
-        secure: false,
-        rewrite: (path) => path.replace(/^\/gnews/, '')
-      }
-    }
-  }
 })
